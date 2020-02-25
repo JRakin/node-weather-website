@@ -1,0 +1,88 @@
+body {
+  color: rgb(2, 190, 87);
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container {
+  flex-grow: 1;
+}
+
+img {
+  width: 300px;
+  height: auto;
+}
+
+p {
+  color: #888888;
+}
+
+#message-1 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+#message-2 {
+  margin-top: 10px;
+}
+#message-1,
+#message-2 {
+  color: rgb(2, 190, 87);
+}
+
+#form-1 input {
+  padding: 5px;
+  font-size: 16px;
+  color: #888888;
+  outline: none;
+  border: 1px solid rgb(2, 190, 87);
+  border-radius: 5px;
+}
+
+#form-1 button {
+  font-size: 16px;
+  padding: 5px;
+  margin-left: 10px;
+  color: rgb(2, 190, 87);
+  width: 100px;
+  border: 1px solid rgb(2, 190, 87);
+  border-radius: 5px;
+  letter-spacing: 1px;
+  background-color: white;
+  font-weight: 500;
+  cursor: pointer;
+  outline: none;
+}
+header {
+  margin-bottom: 48px;
+}
+
+header a {
+  padding: 5px;
+}
+
+header a:hover {
+  border-bottom: 2px solid rgb(2, 190, 87);
+}
+
+h1 {
+  font-size: 350%;
+  margin-bottom: 20px;
+}
+
+header a {
+  color: #888888;
+  margin-right: 16px;
+  text-decoration: none;
+}
+
+footer {
+  color: #888888;
+  border-top: 2px solid #eeeeee;
+  margin-top: 20px;
+  padding: 16px 0;
+}
