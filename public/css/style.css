@@ -57,6 +57,17 @@ p {
   cursor: pointer;
   outline: none;
 }
+
+@media only screen and (max-width: 600px) {
+  #form-1 input {
+    display: block;
+    margin: 15px auto;
+  }
+  #form-1 button {
+    display: block;
+    margin: 0 auto;
+  }
+}
 header {
   margin-bottom: 48px;
 }
