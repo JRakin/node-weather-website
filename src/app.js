@@ -4,6 +4,7 @@ const express = require('express');
 const utils = require('./utils/utils');
 
 const app = express();
+const port = process.env.PORT || 3000;
 
 const publicDirectoryPath = path.join(__dirname, '../public');
 const viewsPath = path.join(__dirname, '../templates/views');
@@ -87,6 +88,6 @@ app.get('*', (req, res) => {
   });
 });
 
-app.listen(3000, '127.0.0.1', () => {
+app.listen(port, () => {
   console.log('listening...');
 });
